@@ -1,0 +1,36 @@
+/* 
+just a little bit of custom styling
+
+*/
+
+
+.navbar{
+
+    z-index:99;
+
+}
+
+body{
+
+    padding-top: 8em;
+
+}
+
+.sliderFade {
+
+    animation:fade 0.5s ease;
+
+}
+
+.sliderThumb, .sliderMainImage{
+
+    cursor:pointer;
+
+}
+
+@KeyFrames Fade{
+
+    0%{opacity:0;}
+    100%{opacity:1;}
+
+}
