@@ -34,3 +34,22 @@ body{
     100%{opacity:1;}
 
 }
+
+
+
+.card{
+	width: 100%;
+	margin: 2px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+
+
